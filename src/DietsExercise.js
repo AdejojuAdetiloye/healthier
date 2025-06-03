@@ -2,7 +2,6 @@ import Diets from "./components/Diets";
 import Exercise from "./components/Exercise";
 import Sidebar from "./components/Sidebar";
 import "./DietsExercise.css";
-import doctor from '../src/assets/images/doctor.png'
 
 export default function DietsExercise() {
   return (

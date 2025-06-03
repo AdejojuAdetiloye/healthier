@@ -1,4 +1,4 @@
-import HomeMain from "./components/HomeMain";
+
 import Sidebar from "./components/Sidebar";
 import "./ScheduleTime.css";
 

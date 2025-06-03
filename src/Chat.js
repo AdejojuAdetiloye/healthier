@@ -1,5 +1,4 @@
 import ChatPage from './components/ChatPage';
-import HomeMain from './components/HomeMain';
 import Sidebar from './components/Sidebar';
 import './Chat.css';
 
