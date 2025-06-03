@@ -1,7 +1,6 @@
 import Route from "./Route";
 import blogs from '../assets/icons/blogs.png'
 import diet from '../assets/icons/diet.png'
-import chat from '../assets/icons/chat.png'
 import person from '../assets/icons/person.svg'
  export default function AdminSidebar() {
 
@@ -11,6 +10,7 @@ import person from '../assets/icons/person.svg'
       <img
         src={require("../assets/logos/healthier-no-bg.png")}
         className="logo"
+        alt="content"
       />
 
       <p className="username">Welcome {'Admin'}</p>

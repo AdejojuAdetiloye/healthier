@@ -1,4 +1,4 @@
-import { RiEye2Fill, RiEye2Line, RiTableView } from "react-icons/ri";
+import { RiEye2Line } from "react-icons/ri";
 import bitterkola from "../../src/assets/images/bitter-kola.jpg";
 import vegetables from '../assets/images/vegatables.jpg';
 import { FaComment, FaThumbsDown, FaThumbsUp } from "react-icons/fa";
@@ -10,7 +10,7 @@ export default function HomeMain() {
       <h1 className="blogs-header">Blogs</h1>
       <div className="main-blog-card">
         <div className="home-image-div">
-          <img src={bitterkola} alt="image" className="main-blog-card-image" />
+          <img src={bitterkola} alt="content" className="main-blog-card-image" />
         </div>
         <div className="home-alt-div">
           <h4 className="home-alt-div-title">
@@ -44,7 +44,7 @@ export default function HomeMain() {
       </div>
       <div className="main-blog-card">
         <div className="home-image-div">
-          <img src={vegetables} alt="image" className="main-blog-card-image" />
+          <img src={vegetables} alt="content" className="main-blog-card-image" />
         </div>
         <div className="home-alt-div">
           <h4 className="home-alt-div-title">

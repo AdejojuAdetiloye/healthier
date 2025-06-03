@@ -31,6 +31,7 @@ import { useNavigate } from "react-router-dom";
       <img
         src={require("../assets/logos/healthier-no-bg.png")}
         className="logo"
+        alt="logo"
       />
 
       <p className="username">Welcome {'Taiwo'}</p>

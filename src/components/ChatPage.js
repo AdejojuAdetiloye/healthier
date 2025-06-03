@@ -1,9 +1,6 @@
-import { BiCamera } from "react-icons/bi";
-import { BsEmojiFrown, BsSendExclamation, BsSendExclamationFill } from "react-icons/bs";
+import { BiCamera, BiMicrophone } from "react-icons/bi";
+import { BsEmojiFrown, BsSendExclamation } from "react-icons/bs";
 import { CgFile } from "react-icons/cg";
-import { FaAccessibleIcon, FaCamera, FaCameraRetro, FaFile, FaFileAlt, FaFileArchive, FaFilePdf, FaMicrophone } from "react-icons/fa";
-import { FaFileArrowDown, FaFileCircleCheck, FaFileCirclePlus } from "react-icons/fa6";
-import { TbFilterShare } from "react-icons/tb";
 import RightSideMessage from "./RightSideMessage";
 import LeftSideMessage from "./LeftSideMessage";
 
@@ -40,7 +37,7 @@ export default function ChatPage() {
           </div>
         </div>
         <div className="second">
-            < FaMicrophone className="mic"/>
+            < BiMicrophone className="mic"/>
         </div>
       </div>
     </div>

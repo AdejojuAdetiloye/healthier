@@ -15,6 +15,7 @@ export default function SignUp({toggle}) {
       <img
         src={require("../assets/logos/healthier-no-bg.png")}
         className="logo"
+        alt="logo"
       />
 
       <h3 className="signup-welcome-text">Become healthier!</h3>

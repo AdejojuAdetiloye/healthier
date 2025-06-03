@@ -1,7 +1,6 @@
-import { div } from "three/tsl";
+
 import CustomTextInput from "./CustomTextInput";
 import CustomButton from "./CustomButton";
-import { useState } from "react";
 import email from '../assets/icons/email.svg';
 import password from '../assets/icons/password.svg'
 
@@ -17,6 +16,7 @@ export default function Login({toggle}) {
       <img
         src={require("../assets/logos/healthier-no-bg.png")}
         className="logo"
+        alt="logo"
       />
 
       <h3 className="login-welcome-text">Welcome Back</h3>
