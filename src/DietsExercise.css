@@ -1,0 +1,378 @@
+.diets-exercise-main-div{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+}
+.diet-exercise-div{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+}
+.timer{
+    width: 20%;
+    height: 100vh;
+    align-items: center;
+    margin-top:200px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.diet{
+    width: 40%;
+    height: 100%;
+}
+.diet-div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.diet-image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.today-menu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.food-item{
+    border: 1px solid rgb(46, 44, 44);
+    padding: 20px;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: semibold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(29, 78, 236);
+    color: white;
+}
+
+.exercise{
+    width: 40%;
+    height: 100%;
+}
+.exercise-item{
+    border: 1px solid rgb(46, 44, 44);
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    font-weight: semibold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: orange;
+    color: white;
+}
+
+/* RESPONSIVE VIEWS */
+@media (min-width:300px) and (max-width:600px){
+    .diets-exercise-main-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .diet-exercise-div{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        padding-right: 15px;
+        gap: 10px;
+    }
+    .timer{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        padding-bottom: 30px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .diet{
+        width: 50%;
+        height: 100%;
+        padding-left: 10px;
+    }
+    .diet-div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .today-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .food-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        width: 95%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(88, 38, 228);
+        color: white;
+        font-size: 10px;
+    }
+    
+    .exercise{
+        width: 50%;
+        height: 100%;
+    }
+    .exercise-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        width: 98%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(58, 79, 202);
+        color: white;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:601px) and (max-width:900px){
+    .diets-exercise-main-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .diet-exercise-div{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        padding-right: 15px;
+        gap: 10px;
+    }
+    .timer{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        padding-bottom: 30px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .diet{
+        width: 50%;
+        height: 100%;
+        padding-left: 10px;
+    }
+    .diet-div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .today-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .food-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        width: 95%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(69, 40, 235);
+        color: white;
+        font-size: 10px;
+    }
+    
+    .exercise{
+        width: 50%;
+        height: 100%;
+    }
+    .exercise-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        width: 98%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(64, 75, 219);
+        color: white;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:901px) and (max-width:1200px){
+    .diets-exercise-main-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .diet-exercise-div{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        padding-right: 15px;
+        gap: 10px;
+    }
+    .timer{
+        width: 25%;
+        height: 100%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .diet{
+        width: 50%;
+        height: 100%;
+        padding-left: 10px;
+    }
+    .diet-div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .today-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .food-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(83, 41, 235);
+        color: white;
+        font-size: 10px;
+    }
+    
+    .exercise{
+        width: 50%;
+        height: 100%;
+    }
+    .exercise-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        width: 98%;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(74, 85, 236);
+        color: white;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:1201px) {
+    .diets-exercise-main-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .diet-exercise-div{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        padding-right: 15px;
+        gap: 10px;
+    }
+    .timer{
+        width: 25%;
+        height: 100%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .diet{
+        width: 50%;
+        height: 100%;
+        padding-left: 10px;
+    }
+    .diet-div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .today-menu{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .food-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        width: 95%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(58, 50, 173);
+        color: white;
+        font-size: 10px;
+    }
+    
+    .exercise{
+        width: 50%;
+        height: 100%;
+    }
+    .exercise-item{
+        border: 1px solid rgb(46, 44, 44);
+        padding: 8px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        width: 98%;
+        border-radius: 10px;
+        font-weight: semibold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(0, 132, 255);
+        color: white;
+        font-size: 10px;
+    }
+}

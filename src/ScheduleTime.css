@@ -1,0 +1,203 @@
+.schedule-header{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.schedule-sub-header{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.schedule-main-div{
+    width: 100%;
+    height: 100vh;
+    padding-left: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.date{
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.schedule-button{
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(40, 40, 165);
+    margin-top: 20px;
+}
+.schedule-button:hover{
+    background-color: orange; 
+}
+
+/* RESPONSIVE SCREENS */
+@media (min-width:300px) and (max-width:600px) {
+    .schedule-header{
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+    .schedule-sub-header{
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .schedule-main-div{
+        width: 100%;
+        height: 100vh;
+        padding-left: 21%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .date{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(48, 46, 46);
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .schedule-button{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        background-color: rgb(40, 40, 165);
+    }
+    .schedule-button:hover{
+        background-color: orange; 
+    } 
+}
+
+@media (min-width:601px) and (max-width:900px) {
+    .schedule-header{
+        font-size: 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+    .schedule-sub-header{
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .schedule-main-div{
+        width: 100%;
+        height: 100vh;
+        padding-left: 21%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .date{
+        width: 200px;
+        height: 60px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .schedule-button{
+        width: 150px;
+        height: 60px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        background-color: rgb(40, 40, 165);
+    }
+    .schedule-button:hover{
+        background-color: orange; 
+    }
+}
+
+@media (min-width:901px) and (max-width:1200px) {
+    .schedule-header{
+        font-size: 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+    .schedule-sub-header{
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .schedule-main-div{
+        width: 100%;
+        height: 100vh;
+        padding-left: 21%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .date{
+        width: 200px;
+        height: 60px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .schedule-button{
+        width: 150px;
+        height: 60px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        background-color: rgb(40, 40, 165);
+    }
+    .schedule-button:hover{
+        background-color: orange; 
+    }
+}
+
+@media (min-width:1201px){
+    .schedule-header{
+        font-size: 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+    .schedule-sub-header{
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .schedule-main-div{
+        width: 100%;
+        height: 100vh;
+        padding-left: 21%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .date{
+        width: 200px;
+        height: 60px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .schedule-button{
+        width: 150px;
+        height: 60px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        background-color: rgb(40, 40, 165);
+    }
+    .schedule-button:hover{
+        background-color: orange; 
+    }
+}

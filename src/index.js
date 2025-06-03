@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Home from "./Home";
+import DietsExercise from "./DietsExercise";
+import Chat from "./Chat";
+import ScheduleTime from "./ScheduleTime";
+import Experiment from "./Experiment";
+import Admin from "./Admin";
+import RoutesPage from "./Routes";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <RoutesPage />
   </React.StrictMode>
 );
 

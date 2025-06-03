@@ -1,38 +1,655 @@
-.App {
-  text-align: center;
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 3.1fr 2.2fr 1.2fr;
+  background-color: #1791b6fd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.animation {
+  width: 100%;
+  height: 100%;
+}
+.animation-img{
+  width: 100%;
+  height: 100vh;
+  border-radius: 15px;
+}
+.logo {
+  width: 200px;
+  height: 170px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.custom-input {
+  width: 90%;
+  height: 50px;
+  margin: auto;
+  border: 2px solid rgb(173, 170, 170);
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 30px;
+}
+.input-logo {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  padding-left: 5px;
+}
+.input {
+  width: 80%;
+  height: 30px;
+  align-self: center;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+/* login */
+.login-welcome-text {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: rgb(255, 252, 252);
+  margin-left: 20px;
+}
+.login-text {
+  margin-top: 15px;
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: white;
+  margin-left: 20px;
+}
+.options{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items:flex-end ;
+    justify-content: right;
+}
+.login-options{
+    margin-right: 10px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.button-div {
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.button {
+  width: 90%;
+  height: 50px;
   color: white;
+  font-weight: bold;
+  background-color: black;
+  font-size: 16px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(43, 41, 41);
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* sign up component */
+.signup-welcome-text {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+  }
+  .signup-text {
+    margin-top: 15px;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  /* Blog Card */
+  .blog-card{
+    width: 90%;
+    background-color: rgb(32, 106, 167);
+    border-radius: 10px;
+    height: 195px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  .blog-card:hover{
+     transform:scale(0.8);
+     cursor: pointer;
+     background-color: rgb(161, 159, 155);
   }
-}
+  .blog-image{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .blog-title{
+    width: 90%;
+    height: 20px;
+    margin: auto;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 5px;
+  }
+
+
+  /* RESPONSIVE VIEWS */
+  @media (min-width:300px) and (max-width:600px) {
+    .main {
+      width: 100%;
+      height: 100vh;
+      overflow-x: hidden;
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: #0985aa;
+    }
+    
+    .animation {
+      width: 100%;
+      height: 100vh;
+      background-image: url("../src/assets/images/doctor.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .logo {
+      width: 250px;
+      height: 190px;
+      margin-top: 10px;
+    }
+    
+    .custom-input {
+      width: 90%;
+      height: 50px;
+      margin: auto;
+      border: 2px solid white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 30px;
+    }
+    .input-logo {
+      width: 30px;
+      height: 30px;
+      align-items: center;
+      padding-left: 5px;
+    }
+    .input {
+      width: 80%;
+      height: 30px;
+      align-self: center;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    /* login */
+    .Login{
+      width: 100%;
+      height: 100vh;
+    }
+    .login-welcome-text {
+      font-size: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bolder;
+      color: white;
+      margin-left: 20px;
+    }
+    .login-text {
+      margin-top: 15px;
+      font-size: 19px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bolder;
+      color: white;
+      margin-left: 20px;
+    }
+    .options{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items:flex-end ;
+        justify-content: right;
+        margin-bottom: 10px;
+    }
+    .login-options{
+        margin-right: 10px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .button-div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .button {
+      width: 90%;
+      height: 50px;
+      color: white;
+      font-weight: bold;
+      background-color: black;
+      font-size: 16px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+    .button:hover{
+        background-color: rgb(29, 28, 28);
+    }
+    
+    /* sign up component */
+    .Signup{
+      width: 100%;
+      height: 100vh;
+    }
+    .signup-welcome-text {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+      }
+      .signup-text {
+        margin-top: 15px;
+        font-size: 19px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+      }
+    
+    
+      /* Blog Card */
+      .blogs-div{
+        width:100%;
+        height: 100vh;
+      }
+      .blog-card{
+        width: 90%;
+        background-color: rgb(95, 167, 201);
+        border-radius: 10px;
+        height: 195px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .blog-card:hover{
+         transform:scale(0.8);
+         cursor: pointer;
+      }
+      .blog-image{
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+      }
+      .blog-title{
+        width: 90%;
+        height: 20px;
+        margin: auto;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-top: 5px;
+      }
+  }
+
+  @media (min-width:601px) and (max-width:900px) {
+    .main {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      display: grid;
+      grid-template-columns: 1.7fr 1.3fr;
+      background-color: #0985aa;
+    }
+    
+    .animation {
+      width: 100%;
+      height: 100%;
+      background-image: url("../src/assets/images/doctor.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 15px;
+    }
+    .logo {
+      width: 250px;
+      height: 190px;
+      margin-top: 10px;
+    }
+    
+    .custom-input {
+      width: 90%;
+      height: 50px;
+      margin: auto;
+      border: 2px solid white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 30px;
+    }
+    .input-logo {
+      width: 30px;
+      height: 30px;
+      align-items: center;
+      padding-left: 5px;
+    }
+    .input {
+      width: 80%;
+      height: 30px;
+      align-self: center;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 15px;
+      font-family: cursive;
+    }
+    
+    /* login */
+    .Login{
+      width: 100%;
+      height: 100vh;
+    }
+    .login-welcome-text {
+      font-size: 30px;
+      font-family: cursive;
+      font-weight: bolder;
+      color: white;
+      margin-left: 20px;
+    }
+    .login-text {
+      margin-top: 15px;
+      font-size: 19px;
+      font-family: cursive;
+      font-weight: bolder;
+      color: white;
+      margin-left: 20px;
+    }
+    .options{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items:flex-end ;
+        justify-content: right;
+    }
+    .login-options{
+        margin-right: 10px;
+        color: white;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .button-div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .button {
+      width: 90%;
+      height: 50px;
+      color: white;
+      font-weight: bold;
+      background-color: rgb(228, 162, 39);
+      font-size: 16px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+    .button:hover{
+        background-color: rgb(29, 28, 28);
+    }
+    
+    /* sign up component */
+    .Signup{
+      width: 100%;
+      height: 100vh;
+    }
+    .signup-welcome-text {
+        font-size: 30px;
+        font-family: cursive;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+      }
+      .signup-text {
+        margin-top: 15px;
+        font-size: 19px;
+        font-family: cursive;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+      }
+    
+    
+      /* Blog Card */
+      .blogs-div{
+        width:100%;
+        height: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+      }
+      .blog-card{
+        width: 100%;
+        max-width: 347px;
+        background-color: rgb(95, 167, 201);
+        border-radius: 10px;
+        height: 195px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .blog-card:hover{
+         transform:scale(0.8);
+         cursor: pointer;
+      }
+      .blog-image{
+        width: 100%;
+        max-width: 347px;
+        height: 150px;
+        border-radius: 10px;
+      }
+      .blog-title{
+        width: 90%;
+        height: 20px;
+        margin: auto;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: cursive;
+        color: white;
+        margin-top: 5px;
+      }
+  }
+
+  @media (min-width:901px) and (max-width:1200px) {
+    .main {
+      width: 100%;
+      height: 100vh;
+      overflow-x: hidden;
+      display: grid;
+      grid-template-columns: 1.9fr 1.5fr 1.2fr;
+      background-color: #0985aa;
+    }
+    
+    .animation {
+      width: 100%;
+      height: 100vh;
+      background-image: url("../src/assets/images/doctor.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .logo {
+      width: 250px;
+      height: 190px;
+      margin-top: 10px;
+    }
+    
+    .custom-input {
+      width: 90%;
+      height: 50px;
+      margin: auto;
+      border: 2px solid white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 30px;
+    }
+    .input-logo {
+      width: 30px;
+      height: 30px;
+      align-items: center;
+      padding-left: 5px;
+    }
+    .input {
+      width: 80%;
+      height: 30px;
+      align-self: center;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 15px;
+      font-family: cursive;
+    }
+    
+    /* login */
+    .Login{
+      width: 100%;
+      height: 100vh;
+    }
+    .login-welcome-text {
+      font-size: 30px;
+      font-family: cursive;
+      font-weight: bolder;
+      color: white;
+      margin-left: 20px;
+    }
+    .login-text {
+      margin-top: 15px;
+      font-size: 19px;
+      font-family: cursive;
+      font-weight: bolder;
+      color: white;
+      margin-left: 20px;
+    }
+    .options{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items:flex-end ;
+        justify-content: right;
+    }
+    .login-options{
+        margin-right: 10px;
+        color: white;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .button-div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .button {
+      width: 90%;
+      height: 50px;
+      color: white;
+      font-weight: bold;
+      background-color: rgb(228, 162, 39);
+      font-size: 16px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+    .button:hover{
+        background-color: rgb(29, 28, 28);
+    }
+    
+    /* sign up component */
+    .Signup{
+      width: 100%;
+      height: 100vh;
+    }
+    .signup-welcome-text {
+        font-size: 30px;
+        font-family: cursive;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+      }
+      .signup-text {
+        margin-top: 15px;
+        font-size: 19px;
+        font-family: cursive;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+      }
+    
+    
+      /* Blog Card */
+      .blogs-div{
+        width:100%;
+        height: 100vh;
+      }
+      .blog-card{
+        width: 90%;
+        background-color: rgb(95, 167, 201);
+        border-radius: 10px;
+        height: 195px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .blog-card:hover{
+         transform:scale(0.8);
+         cursor: pointer;
+      }
+      .blog-image{
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+      }
+      .blog-title{
+        width: 90%;
+        height: 20px;
+        margin: auto;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: cursive;
+        color: white;
+        margin-top: 5px;
+      }
+  }

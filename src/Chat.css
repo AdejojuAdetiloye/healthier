@@ -1,0 +1,727 @@
+.Chat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+.chat-page {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: rgb(187, 220, 245);
+  padding-left: 20%;
+  padding-bottom: 5%;
+}
+.chat-main-div {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.message-section {
+  width: 80%;
+  height: 9%;
+  position: fixed;
+  margin-left: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid rgb(173, 170, 170);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  background-color: white;
+}
+.first {
+  width: 90%;
+  height: 40px;
+  align-self: center;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.message-icon {
+  width: 3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+.icon-style {
+  color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+}
+.text-input {
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.text-input-width {
+  width: 100%;
+  font-size: 14px;
+  padding-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  outline: none;
+}
+.second {
+  width: 5%;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(2, 132, 165);
+}
+.mic {
+  height: 40%;
+  width: 90%;
+  display: flex;
+  border-radius: 10px;
+}
+.RightSideMessage {
+  padding-top: 10px;
+  width: 100%;
+  height: 100px;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+.right-side {
+  width: 400px;
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.message-text {
+  width: 350px;
+  max-height: 100px;
+  background-color: rgb(0, 89, 255);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.LeftSideMessage {
+  padding-top: 10px;
+  width: 100%;
+  height: 100px;
+  align-items: flex-end;
+  justify-items: flex-start;
+}
+.left-side {
+  width: 400px;
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+.left-message-text {
+  width: 350px;
+  max-height: 100px;
+  background-color: rgb(115, 152, 233);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* RESPONSIVE SCREENS */
+@media (min-width: 300px) and (max-width: 600px) {
+  .Chat {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+  }
+  .chat-page {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(187, 220, 245);
+    padding-left: 20%;
+    padding-bottom: 6%;
+  }
+  .chat-main-div {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .message-section {
+    width: 80%;
+    height: 8%;
+    position: fixed;
+    margin-left: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid rgb(173, 170, 170);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    background-color: white;
+  }
+  .first {
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .message-icon {
+    width: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 6px;
+  }
+  .icon-style {
+    color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+  .text-input {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .text-input-width {
+    width: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    outline: none;
+  }
+  .second {
+    width: 9%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 132, 165);
+  }
+  .mic {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+  }
+  .RightSideMessage {
+    padding-top: 5px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-end;
+  }
+  .right-side {
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(3, 78, 241);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .LeftSideMessage {
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-start;
+  }
+  .left-side {
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .left-message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(115, 152, 233);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .Chat {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+  }
+  .chat-page {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(187, 220, 245);
+    padding-left: 20%;
+    padding-bottom: 6%;
+  }
+  .chat-main-div {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .message-section {
+    width: 80%;
+    height: 8%;
+    position: fixed;
+    margin-left: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid rgb(173, 170, 170);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    background-color: white;
+  }
+  .first {
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .message-icon {
+    width: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 6px;
+  }
+  .icon-style {
+    color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+  .text-input {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .text-input-width {
+    width: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    outline: none;
+  }
+  .second {
+    width: 9%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 132, 165);
+  }
+  .mic {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+  }
+  .RightSideMessage {
+    padding-top: 5px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-end;
+  }
+  .right-side {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(5, 80, 243);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .LeftSideMessage {
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-start;
+  }
+  .left-side {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .left-message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(115, 152, 233);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .Chat {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+  }
+  .chat-page {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(187, 220, 245);
+    padding-left: 20%;
+    padding-bottom: 6%;
+  }
+  .chat-main-div {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .message-section {
+    width: 80%;
+    height: 8%;
+    position: fixed;
+    margin-left: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid rgb(173, 170, 170);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    background-color: white;
+    gap: 10px;
+  }
+  .first {
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .message-icon {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 6px;
+  }
+  .icon-style {
+    color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+  .text-input {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .text-input-width {
+    width: 100%;
+    font-size: 17x;
+    padding-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    outline: none;
+  }
+  .second {
+    width: 12%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 132, 165);
+  }
+  .mic {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+  }
+  .RightSideMessage {
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-end;
+  }
+  .right-side {
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(3, 76, 231);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .LeftSideMessage {
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-start;
+  }
+  .left-side {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .left-message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(115, 152, 233);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+@media (min-width: 1201px) {
+  .Chat {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+  }
+  .chat-page {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(187, 220, 245);
+    padding-left: 20%;
+    padding-bottom: 6%;
+  }
+  .chat-main-div {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .message-section {
+    width: 80%;
+    height: 8%;
+    position: fixed;
+    margin-left: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid rgb(173, 170, 170);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    background-color: white;
+  }
+  .first {
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .message-icon {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 6px;
+  }
+  .icon-style {
+    color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+  .text-input {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .text-input-width {
+    width: 100%;
+    font-size: 17x;
+    padding-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    outline: none;
+  }
+  .second {
+    width: 6%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 132, 165);
+  }
+  .mic {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .RightSideMessage {
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-end;
+  }
+  .right-side {
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(8, 75, 218);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .LeftSideMessage {
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    align-items: flex-end;
+    justify-items: flex-start;
+  }
+  .left-side {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .left-message-text {
+    width: 350px;
+    max-height: 100px;
+    background-color: rgb(115, 152, 233);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}

@@ -1,0 +1,41 @@
+
+.experiment-main-div{
+    width: 100%;
+    height: 100vh;
+    padding-left: 21%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.experiment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f9fafb;
+    box-sizing: border-box;
+  }
+  
+  .experiment-alert {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 20px 30px;
+    border: 1px solid #ffeeba;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    text-align: center;
+    max-width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    .experiment-alert {
+      font-size: 1rem;
+      padding: 15px 20px;
+    }
+  }
+  
