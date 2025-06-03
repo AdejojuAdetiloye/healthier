@@ -3,12 +3,13 @@ import CustomTextInput from "./CustomTextInput";
 import CustomButton from "./CustomButton";
 import email from '../assets/icons/email.svg';
 import password from '../assets/icons/password.svg'
+import { useNavigate } from "react-router-dom";
 
 export default function Login({toggle}) {
-
+const navigate = useNavigate('/blogs')
   //to login user
   function login() {
-    console.log("logged in user");
+    navigate('/blogs')
   }
 
   return (
