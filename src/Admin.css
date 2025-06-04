@@ -359,15 +359,10 @@
     padding-left: 5px;
   }
   .route-button {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
+    height: 50px;
     margin-bottom: 20px;
-    margin-left: -4px;
-    padding-right: 17px;
+    padding:10px;
     border-radius: 10px;
     border: 2px solid rgb(173, 168, 168);
     color: white;
@@ -383,11 +378,16 @@
     width: 25px;
     height: 25px;
   }
+  .route-text{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: hidden;
+  }
   .admin-main-div {
     width: 100%;
     height: 100%;
     padding-left: 21%;
-    padding-top: 40px;
+    padding-top: 120px;
   }
   .admin-blog-card-div {
     width: 100%;
@@ -466,26 +466,29 @@
   /* ADMIN APPOINTMENT  */
   .admin-appointment-card {
     width: 90%;
-    height: 70px;
+    margin: auto;
+    height: 160px;
     border-radius: 10px;
     background-color: white;
     display: flex;
+    flex-direction: column;
     gap: 10px;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5px;
     padding: 7px;
     margin-bottom: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .admin-appointment-card:hover {
     background-color: rgb(242, 239, 239);
     box-shadow: 5px 5px 5px rgb(208, 207, 207);
   }
   .appointment-img {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    margin-left: 3px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
   }
   .appointment-email {
     font-weight: bold;
@@ -515,19 +518,23 @@
     height: 100%;
   }
   .admin-user-card {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 200px;
     padding: 8px;
     border-radius: 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
     gap: 8px;
     margin-top: 5px;
     padding: 7px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding-left: 5px;
+    border: 1px solid black;
   }
   .admin-user-card:hover {
     background-color: rgb(242, 239, 239);
@@ -571,7 +578,7 @@
   .profile-div {
     width: 80%;
     margin: auto;
-    height: 50px;
+    height: 100px;
     background-color: white;
     position: fixed;
     top: 0;
@@ -584,7 +591,7 @@
     padding-right: 10px;
   }
   .inner-div {
-    width: 9%;
+    width: 20%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -594,10 +601,9 @@
     gap: 20px;
   }
   .profile-image {
-    width: 35px;
-    height: 35px;
-    border-radius: 17.5px;
-    box-shadow: 3px 3px 3px gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
   }
   .logout-button {
     width: 60px;
@@ -619,6 +625,60 @@
     width: 25px;
     height: 25px;
     color: rgb(17, 16, 16);
+  }
+
+  .create-blog-div {
+    width: 100%;
+    height: 100%;
+  }
+  .title-label {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 30px;
+  }
+  .create-blog-title {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: rgb(98, 186, 241);
+    border: 2px solid rgb(98, 186, 241);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+  }
+  .content-label {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 30px;
+  }
+  .blog-content {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    outline: rgb(98, 186, 241);
+    border: 2px solid rgb(98, 186, 241);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+  }
+  .upload-button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 215);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .upload-button:hover{
+    background-color: rgb(54, 54, 239);
   }
 }
 @media (min-width: 601px) and (max-width: 900px) {

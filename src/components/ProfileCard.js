@@ -22,7 +22,7 @@ function toProfile(){
     <div className="profile-div">
       <div className="inner-div">
         <img src={profile} alt="profile" className="profile-image" onClick={toProfile}/>
-        <button className="logout-button" onClick={logout}>logout</button>
+        {/* <button className="logout-button" onClick={logout}>logout</button> */}
         <button className="dashboard-button" onClick={toAdmin}>
           <MdDashboard className="dashboard-icon" />
         </button>
