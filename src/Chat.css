@@ -8,7 +8,6 @@
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background-color: rgb(187, 220, 245);
   padding-left: 20%;
   padding-bottom: 5%;
 }
@@ -16,6 +15,7 @@
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  padding-top: 100px;
 }
 .message-section {
   width: 80%;
@@ -80,10 +80,10 @@
   background-color: rgb(2, 132, 165);
 }
 .mic {
-  height: 40%;
-  width: 90%;
+  height: 25px;
+  width: 25px;
   display: flex;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .RightSideMessage {
   padding-top: 10px;
@@ -150,7 +150,7 @@
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: rgb(187, 220, 245);
+    background-color: white;
     padding-left: 20%;
     padding-bottom: 6%;
   }
@@ -214,8 +214,8 @@
     outline: none;
   }
   .second {
-    width: 9%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
     margin-left: 5px;
     border-radius: 30px;
     display: flex;
@@ -224,8 +224,8 @@
     background-color: rgb(2, 132, 165);
   }
   .mic {
-    height: 40%;
-    width: 90%;
+    height: 25px;
+    width: 25px;
     display: flex;
     border-radius: 10px;
   }
@@ -296,7 +296,7 @@
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: rgb(187, 220, 245);
+    background-color: white;
     padding-left: 20%;
     padding-bottom: 6%;
   }
@@ -360,8 +360,8 @@
     outline: none;
   }
   .second {
-    width: 9%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
     margin-left: 5px;
     border-radius: 30px;
     display: flex;
@@ -370,8 +370,8 @@
     background-color: rgb(2, 132, 165);
   }
   .mic {
-    height: 40%;
-    width: 90%;
+    height: 25px;
+    width: 25px;
     display: flex;
     border-radius: 10px;
   }
@@ -442,7 +442,7 @@
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: rgb(187, 220, 245);
+    background-color: white;
     padding-left: 20%;
     padding-bottom: 6%;
   }
@@ -507,8 +507,8 @@
     outline: none;
   }
   .second {
-    width: 12%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
     margin-left: 5px;
     border-radius: 50%;
     display: flex;
@@ -517,8 +517,8 @@
     background-color: rgb(2, 132, 165);
   }
   .mic {
-    height: 40%;
-    width: 90%;
+    height: 25px;
+    width: 25px;
     display: flex;
     border-radius: 10px;
   }
@@ -589,7 +589,7 @@
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: rgb(187, 220, 245);
+    background-color: white;
     padding-left: 20%;
     padding-bottom: 6%;
   }
@@ -632,7 +632,7 @@
     margin: 6px;
   }
   .icon-style {
-    color: black;
+    color: rgb(43, 42, 42);
     width: 25px;
     height: 25px;
     border-radius: 12.5px;
@@ -653,18 +653,18 @@
     outline: none;
   }
   .second {
-    width: 6%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
     margin-left: 5px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(2, 132, 165);
+    background-color: rgb(75, 170, 194);
   }
   .mic {
-    height: 40%;
-    width: 90%;
+    height: 25px;
+    width: 25px;
     display: flex;
     border-radius: 10px;
   }

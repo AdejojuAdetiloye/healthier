@@ -1,5 +1,6 @@
 import Diets from "./components/Diets";
 import Exercise from "./components/Exercise";
+import ProfileCard from "./components/ProfileCard";
 import Sidebar from "./components/Sidebar";
 import "./DietsExercise.css";
 
@@ -13,6 +14,7 @@ export default function DietsExercise() {
 
       {/* main content */}
       <div className="diets-exercise-main-div">
+        <ProfileCard />
         <div className="diet-exercise-div">
           <div className="diet">
             <Diets />

@@ -6,6 +6,7 @@ import Chat from "./Chat";
 import DietsExercise from "./DietsExercise";
 import ScheduleTime from "./ScheduleTime";
 import Experiment from './Experiment'
+import Admin from './Admin'
 
 export default function RoutesPage() {
   return (
@@ -17,6 +18,7 @@ export default function RoutesPage() {
         <Route path="diets" element={<DietsExercise />} />
         <Route path="/schedule" element={<ScheduleTime />} />
         <Route path="/experiment" element={<Experiment />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );

@@ -2,6 +2,7 @@
     width: 90%;
     height: 100vh;
     display: flex;
+    padding-top: 120px;
 }
 .diet-exercise-div{
     width: 80%;

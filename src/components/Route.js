@@ -1,9 +1,10 @@
 
 
 
-export default function Route({route,icon,onclick}){
+export default function Route({route,icon,onclick,isClicked}){
+    
     return (
-        <button className="route-button" onClick={onclick}>
+        <button onClick={onclick} className={`${isClicked && 'route-button-clicked'} route-button`} >
             <img  src={icon} alt='icon' className='route-icon'/>
             {route}
         </button>

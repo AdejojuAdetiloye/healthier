@@ -7,7 +7,6 @@ import { FaShareNodes } from "react-icons/fa6";
 export default function HomeMain() {
   return (
     <div className="home-div">
-      <h1 className="blogs-header">Blogs</h1>
       <div className="main-blog-card">
         <div className="home-image-div">
           <img src={bitterkola} alt="content" className="main-blog-card-image" />

@@ -1,6 +1,7 @@
 import ChatPage from './components/ChatPage';
 import Sidebar from './components/Sidebar';
 import './Chat.css';
+import ProfileCard from './components/ProfileCard';
 
 
 export default function Chat() {
@@ -13,6 +14,7 @@ export default function Chat() {
 
       {/* main content */}
       <div className="chat-main-div">
+        <ProfileCard />
         <ChatPage />
       </div>
     </div>
