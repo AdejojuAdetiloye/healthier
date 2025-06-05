@@ -9,10 +9,6 @@ export default function ProfileCard() {
     navigate("/admin");
   }
 
-  //logout
-  function logout(){
-    alert('Are you sure you want ot logout?')
-  }
 //to profile page
 function toProfile(){
     navigate('/profile')
@@ -22,7 +18,7 @@ function toProfile(){
     <div className="profile-div">
       <div className="inner-div">
         <img src={profile} alt="profile" className="profile-image" onClick={toProfile}/>
-        {/* <button className="logout-button" onClick={logout}>logout</button> */}
+        
         <button className="dashboard-button" onClick={toAdmin}>
           <MdDashboard className="dashboard-icon" />
         </button>
