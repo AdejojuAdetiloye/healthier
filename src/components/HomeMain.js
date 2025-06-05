@@ -3,11 +3,18 @@ import bitterkola from "../../src/assets/images/bitter-kola.jpg";
 import vegetables from '../assets/images/vegatables.jpg';
 import { FaComment, FaThumbsDown, FaThumbsUp } from "react-icons/fa";
 import { FaShareNodes } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 export default function HomeMain() {
+  const navigate = useNavigate();
+
+  function toDetail(){
+    navigate('/blog')
+  }
   return (
     <div className="home-div">
-      <div className="main-blog-card">
+      {/* FIRST BLOG */}
+      <div className="main-blog-card" onClick={toDetail}>
         <div className="home-image-div">
           <img src={bitterkola} alt="content" className="main-blog-card-image" />
         </div>
@@ -41,7 +48,8 @@ export default function HomeMain() {
           </div>
         </div>
       </div>
-      <div className="main-blog-card">
+      {/* SECOND BLOG */}
+      <div className="main-blog-card" onClick={toDetail}>
         <div className="home-image-div">
           <img src={vegetables} alt="content" className="main-blog-card-image" />
         </div>
