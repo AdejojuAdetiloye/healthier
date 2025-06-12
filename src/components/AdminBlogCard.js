@@ -6,7 +6,7 @@ export default function AdminBlogCard({ image, title }) {
         <p className="admin-blog-title">{title}</p>
       </div>
       <div className="admin-actions">
-        <button className="edit-button">Edit</button>
+        <button className="admin-edit-button">Edit</button>
         <button className="delete-button">Delete</button>
       </div>
     </div>
